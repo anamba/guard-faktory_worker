@@ -1,0 +1,3 @@
+guard :faktory_worker, cmd: 'bundle exec faktory-worker' do
+  watch(%r{^app/jobs/(.+)_job\.rb$})
+end
